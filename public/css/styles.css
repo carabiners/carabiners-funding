@@ -1,0 +1,170 @@
+/* =========================
+   RESET & BASE
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937; /* slate-800 */
+  background-color: #ffffff;
+}
+
+/* =========================
+   LAYOUT
+========================= */
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.logo {
+  height: 40px;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+  padding: 48px 0;
+}
+
+section:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* =========================
+   HERO
+========================= */
+
+#hero {
+  text-align: center;
+  padding: 64px 0;
+}
+
+#hero p {
+  max-width: 720px;
+  margin: 0 auto 24px auto;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #111827; /* near-black */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+}
+
+/* =========================
+   TRUST TEXT
+========================= */
+
+.trust-text {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-top: 12px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background-color: #111827;
+  color: #e5e7eb;
+  padding: 32px 0;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-bottom: 12px;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .container {
+    padding: 16px;
+  }
+}
